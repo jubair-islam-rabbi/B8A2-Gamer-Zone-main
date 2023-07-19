@@ -1,3 +1,7 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -14,13 +18,34 @@ nav {
 }
 
 .btn-primary {
-    border-radius: 5px;
+    border-radius: 48px;
     background: #FD6E0A;
     border: 0;
     color: white;
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+    margin-right: 15px;
+}
+
+.btn-primary-2 {
+    border-radius: 48px;
+    background: #4EC5F7;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+
+}
+
+.btn-right {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .nav-title {
@@ -196,9 +221,9 @@ nav a {
 }
 
 .game {
-    margin-right: 320px;
+    margin-right: 300px;
     padding-top: 200px;
-    padding-left: 200px;
+    padding-left: 150px;
 }
 
 .game-title {
@@ -377,29 +402,43 @@ nav a {
 .p-1 {
     padding-right: 20px;
 }
+
 .p-1:hover {
-   color: red;
+    color: red;
 }
 
 .p-2 {
     padding-right: 20px;
 }
+
 .p-2:hover {
     color: red;
- }
+}
 
 .p-3 {
     padding-right: 20px;
 }
+
 .p-3:hover {
     color: red;
- }
- .p-4:hover {
+}
+
+.p-4:hover {
     color: red;
- }
+}
 
 .last-pera .last {
     padding-left: 590px;
     color: white;
 
+}
+@media screen and(max-width:425px) {
+    .nav{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 20px;
+        grid-area: auto / span 1;
+    }
+    
 }
