@@ -112,7 +112,7 @@ nav a {
 /* main section */
 
 .img-add {
-    margin-top: 40px;
+    margin-top: 100px;
 }
 
 .title-2 {
@@ -170,7 +170,7 @@ nav a {
 }
 
 .game-instruction {
-    margin-top: 40px;
+    margin-top: 130px;
     display: flex;
     margin-bottom: 300px;
 }
@@ -237,10 +237,12 @@ nav a {
     align-items: center;
 
 }
-.button-add>.btn-1:hover{
+
+.button-add>.btn-1:hover {
     background-color: aqua;
     color: red;
 }
+
 .button-add>.btn-6 {
     width: 243px;
     height: 80px;
@@ -254,24 +256,150 @@ nav a {
     align-items: center;
     margin-left: 50px;
 }
-.button-add>.btn-6:hover{
+
+.button-add>.btn-6:hover {
     background-color: aqua;
-    color:red;
+    color: red;
 }
 
-.button-add{
+.button-add {
     padding-left: 120px;
 }
-.button-add .hoise{
+
+.button-add .hoise {
     padding-left: 0px;
     padding-right: 50px;
 }
 
+/* footer section */
+.about-game {
+    margin-top: 150px;
+    background: #0B0223;
+    height: 500px;
+}
 
+.icon-img-2 {
+    display: flex;
+    justify-content: center;
+}
 
+.nav-title-2 {
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 800;
+}
 
+.icon-2 {
+    width: 86.041px;
+    height: 40px;
+    padding-top: 55px;
+    padding-right: 20px;
+}
 
+.information {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
 
+.information>ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
 
+.information li {
+    list-style: none;
+}
 
+.information a {
+    text-decoration: none;
+}
+
+.gap-needed-1 {
+    padding-right: 50px;
+}
+
+.gap-needed-2 {
+    padding-right: 50px;
+}
+
+.gap-needed-3 {
+    padding-right: 50px;
+}
+
+.gap-needed-4 {
+    padding-right: 50px;
+}
+
+.gap-needed-5 {
+    padding-right: 50px;
+}
+
+.social-icons {
+    padding-left: 600px;
+}
+
+.fb-img {
+    padding-right: 20px;
+}
+
+.insta-img {
+    padding-right: 20px;
+}
+
+.twet-img {
+    padding-right: 20px;
+}
+
+.you-img {
+    padding-right: 20px;
+}
+
+.whats-img {
+    padding-right: 20px;
+}
+
+.social-icons:hover {
+    background-color: #534C64;
+    color: solid salmon;
+}
+
+.paragraph {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.p-1 {
+    padding-right: 20px;
+}
+.p-1:hover {
+   color: red;
+}
+
+.p-2 {
+    padding-right: 20px;
+}
+.p-2:hover {
+    color: red;
+ }
+
+.p-3 {
+    padding-right: 20px;
+}
+.p-3:hover {
+    color: red;
+ }
+ .p-4:hover {
+    color: red;
+ }
+
+.last-pera .last {
+    padding-left: 590px;
+    color: white;
+
+}
