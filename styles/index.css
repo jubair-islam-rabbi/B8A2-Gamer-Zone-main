@@ -84,7 +84,7 @@ nav a {
 .banner {
     margin-top: 40px;
     width: auto;
-    height: 700px;
+    height: 1400px;
     background: aquamarine;
 
 }
@@ -450,5 +450,56 @@ nav a {
    }
    .pic {
     padding-left: 0px;
+    width: 400px;
+}
+.img-des {
+    flex-direction: column;
+}
+.desp-1{
+    padding-left: 0;
+}
+.img-1{
+    padding-left: 0;
+}
+.img-add{
+    margin-top:0px;
+}
+.game {
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-top: -80px;
+}
+.game-instruction{
+    flex-direction: column;
+}
+.button-add{
+    margin-top: 800px;
+}
+.btn-6{
+    margin-left:30px;
+}
+.btn-1{
+    margin-left: -20px;
+}
+.gap-needed-6{
+    margin-right: 50px;
+
+}
+.information>ul {
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+}
+.social-icons {
+    padding-left: 50px;
+}
+.about-game {
+    margin-top: 50px;
+    height: 650px;
+}
+.paragraph{
+    flex-direction: column;
 }
 }
