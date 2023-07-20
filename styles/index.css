@@ -84,9 +84,8 @@ nav a {
 .banner {
     margin-top: 40px;
     width: auto;
-    height: 1400px;
+    height: 700px;
     background: aquamarine;
-
 }
 
 .descrip-btn {
@@ -501,5 +500,8 @@ nav a {
 }
 .paragraph{
     flex-direction: column;
+}
+.banner {
+    height: 1400px;
 }
 }
