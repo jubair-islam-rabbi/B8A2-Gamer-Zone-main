@@ -449,7 +449,9 @@ nav a {
    }
    .pic {
     padding-left: 0px;
-    width: 400px;
+}
+.group-pic{
+    width: 420px;
 }
 .img-des {
     flex-direction: column;
@@ -502,6 +504,29 @@ nav a {
     flex-direction: column;
 }
 .banner {
-    height: 1400px;
+    height: 1100px;
 }
+.with-all{
+    /* width: 420px; */
+
+}
+.first-img{
+    width: 420px;
+}
+.first-img-2{
+    /* width: 100px; */
+}
+.img-1{
+    width: 400px;
+}
+.img-2{
+    width: 400px;
+}
+.img-3{
+    width: 400px;
+}
+.img-4{
+    width: 400px;
+}
+
 }
